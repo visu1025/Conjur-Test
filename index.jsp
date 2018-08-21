@@ -3,6 +3,8 @@
 <style>
 body{
 background-image: url("images/pwc_office.jpg");
+height: 100%;
+width: 100%;
 }
 </style>
    <body>
