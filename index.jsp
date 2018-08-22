@@ -10,12 +10,7 @@ width: 100%;
    <body>
  <br>
     <br>
-<h1 style="color:Green; text-align:center"> Hello, World. Welcome to Conjur Demo! Trigger shell script</h1>
-        <p>
-        <%ProcessBuilder pb = new ProcessBuilder("/bin/sh", "-c", "/root/tomcat/webapps/ROOT/fetchSecret.sh>/root/tomcat/webapps/ROOT/index.jsp"); pb.start();%>
-        <h3 style="text-align:center">Secret fetched from Conjur is : <strong> Database Password  </strong></h3>
-        </p>
-
+<h1 style="color:Green; text-align:center"> Hello, World. Welcome to Conjur Demo!</h1>
   <br>
   <br>
 </body>
