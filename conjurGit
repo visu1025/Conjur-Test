@@ -1,0 +1,2 @@
+#!/bin/bash
+summon --yaml 'SSH: !var:file jenkins-secrets/jenkins-password' bash -c 'GIT_SSH_COMMAND="ssh -i $SSH" git '"$1"
